@@ -111,5 +111,28 @@
       <!-- Bills will appear here -->
     </tbody>
   </table>
+  <script>
+    let bills = [];
+
+    function addBill() {
+      const name = document.getElementById('customerName').value.trim();
+      const number = document.getElementById('billNumber').value.trim();
+      const amount = document.getElementById('amount').value.trim();
+      const date = document.getElementById('billDate').value;
+
+      if (!name || !number || !amount || !date) {
+        alert('Please fill all fields!');
+        return;
+      }
+
+      bills.push({ name, number, amount, date });
+      renderTable();
+      // Clear form
+      document.getElementById('customerName').value = '';
+      document.getElementById('billNumber').value = '';
+      document.getElementById('amount').value = '';
+      document.getElementById('billDate').value = '';
+    }
+  </script>
 </body>
 </html>
