@@ -157,6 +157,16 @@
       bills.splice(index, 1);
       renderTable();
     }
+    function editBill(index) {
+      const bill = bills[index];
+      document.getElementById('customerName').value = bill.name;
+      document.getElementById('billNumber').value = bill.number;
+      document.getElementById('amount').value = bill.amount;
+      document.getElementById('billDate').value = bill.date;
+      bills.splice(index, 1);
+      renderTable();
+    }
+
   </script>
 </body>
 </html>
