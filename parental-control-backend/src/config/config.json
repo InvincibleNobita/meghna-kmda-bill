@@ -1,0 +1,16 @@
+{
+  "development": {
+    "username": "root",
+    "password": "theOne",
+    "database": "parental_control_db_dev",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "SuryaErections@DB123",
+    "database": "Surya_Erections_DB_PROD",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
