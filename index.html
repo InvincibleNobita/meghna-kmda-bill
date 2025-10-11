@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Billing</title>
+    <title>Online Billing for KMDA</title>
     <style>
     body {
       font-family: Arial, sans-serif;
@@ -24,6 +24,15 @@
       padding: 20px;
       border-radius: 10px;
       box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+:root {
+      --bg-color: #f7f9fc;
+      --text-color: #333;
+      --card-bg: white;
+      --button-bg: #007bff;
+      --button-hover: #0056b3;
+      --table-header: #007bff;
+      --border-color: #ccc;
     }
 
     .bill-form input, .bill-form button {
@@ -166,7 +175,6 @@
       bills.splice(index, 1);
       renderTable();
     }
-
   </script>
 </body>
 </html>
