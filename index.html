@@ -153,6 +153,10 @@
         tbody.innerHTML += row;
       });
     }
+    function deleteBill(index) {
+      bills.splice(index, 1);
+      renderTable();
+    }
   </script>
 </body>
 </html>
