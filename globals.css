@@ -1,0 +1,14 @@
+/* Global Variables */
+:root {
+  --bg-color: #f7f9fc;
+  --text-color: #333;
+  --card-bg: white;
+  --button-bg: #007bff;
+  --button-hover: #0056b3;
+  --table-header: #007bff;
+  --border-color: #ccc;
+  --success: #28a745;
+  --danger: #dc3545;
+  --shadow: rgba(0, 0, 0, 0.1);
+}
+
