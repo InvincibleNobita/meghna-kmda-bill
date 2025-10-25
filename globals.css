@@ -12,3 +12,11 @@
   --shadow: rgba(0, 0, 0, 0.1);
 }
 
+/* Global Reset & Typography */
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--bg-color);
+  margin: 0;
+  padding: 20px;
+  color: var(--text-color);
+}
