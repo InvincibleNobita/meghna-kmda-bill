@@ -82,4 +82,22 @@ th {
   background-color: var(--table-header);
   color: white;
 }
+/* Action Buttons Inside Table */
+td button {
+  padding: 6px 10px;
+  margin: 2px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: var(--success);
+  color: white;
+}
+
+.delete-btn {
+  background-color: var(--danger);
+  color: white;
+}
 
